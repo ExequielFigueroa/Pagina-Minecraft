@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortcraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="imagenes/patron-fondo-bloques-tierra-juego-pixeles-cubicos_8071-48283.avif">
+   <header>
+        <div id="presentacion">
+            <h1>FORMCRAFT</h1>
+        </div>
+    </header>
+
+    <div id="zona_votacion">
+        <h2>"Pensa sabiamente tu eleccion..."</h2>
+        <h2>¿Cuál mob es más molesto?:</h2>
+
+        <form id="form">
+            <label>Seleccione un mob:</label>
+            <select name="Mob" id="mob">
+                <option value="blaze">(1) Blaze</option>
+                <option value="shulker">(2) Shulker</option>
+                <option value="bebe zombie">(3) Bebé Zombie</option>
+                <option value="aldeano verde">(4) Aldeano Verde</option>
+                <option value="pollo">(5) Pollo</option>
+                <option value="caballo esqueleto">(6) Caballo Esqueleto</option>
+            </select>
+
+            <div id="padre">
+                <div class="img"><p>1</p><img src="imagenes/Blaze.png"></div>
+                <div class="img"><p>2</p><img src="imagenes/Shulker.png"></div>
+                <div class="img"><p>3</p><img src="imagenes/Zombi Chiquito.png"></div>
+                <div class="img"><p>4</p><img src="imagenes/Aldeano Simplon.webp"></div>
+                <div class="img"><p>5</p><img src="imagenes/Pollo.webp"></div>
+                <div class="img"><p>6</p><img src="imagenes/Caballo Esqueleto.webp"></div>
+            </div>
+
+            <button type="button" id="Opcion">Enviar</button>
+        </form>
+    </div>
+
+    <br><br><br>
+
+    <video id="animacion" width="500" height="300" controls></video>
+
+    <script src="script.js"></script>
+</body>
+</html>
